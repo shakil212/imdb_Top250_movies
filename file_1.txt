@@ -1,0 +1,91 @@
+import React, { Component } from "react";
+// import Box from "./box.component.js";
+import "bootstrap/dist/css/bootstrap.min.css";
+class App extends Component {
+  render() {
+    return (
+      <div className="container">
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Poster</th>
+                <th scope="col">Sl</th>
+                <th scope="col">First</th>
+                <th scope="col">Last</th>
+                <th scope="col">Handle</th>
+              </tr>
+            </thead>
+          <tbody>
+              <tr>
+                <td>
+                  <img 
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpiQjxB2mqAoOsOnKuAAJQhTzU_LmebHpVwg&s" 
+                    alt="img not found"
+                  >      
+                 </img>
+                </td>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>200</td>
+                <td><i class="fa-solid fa-star"></i></td>
+              </tr>
+            <tr>
+              <td>
+                <img 
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpiQjxB2mqAoOsOnKuAAJQhTzU_LmebHpVwg&s"
+                  alt="img not found" 
+                >
+              </img>
+              </td>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>100</td>
+                <td><i class="fa-solid fa-star"></i></td>
+            </tr>
+            <tr>
+              <td>
+                <img 
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpiQjxB2mqAoOsOnKuAAJQhTzU_LmebHpVwg&s"
+                  alt="img not found" 
+                >       
+              </img>
+              </td>
+                <th scope="row">3</th>
+                <td>Larry the bird</td>
+                <td>150</td>
+                <td><i class="fa-solid fa-star"></i></td>
+            </tr>
+            <tr>
+              <td>
+                <img 
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpiQjxB2mqAoOsOnKuAAJQhTzU_LmebHpVwg&s"
+                  alt="img not found" 
+                >       
+              </img>
+              </td>
+                <th scope="row">4</th>
+                <td>Larry the paking</td>
+                <td>150</td>
+                <td><i class="fa-solid fa-star"></i></td>
+            </tr>
+            <tr>
+              <td>
+                <img 
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpiQjxB2mqAoOsOnKuAAJQhTzU_LmebHpVwg&s"
+                  alt="img not found" 
+                >       
+              </img>
+              </td>
+                <th scope="row">5</th>
+                <td>Larry the liliput</td>
+                <td>150</td>
+                <td><i class="fa-solid fa-star"></i></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    );
+  }
+}
+
+export default App;
