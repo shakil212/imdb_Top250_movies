@@ -19,9 +19,10 @@ class App extends Component {
               <tr>
                 <th scope="col">Poster</th>
                 <th scope="col">Sl</th>
-                <th scope="col">First</th>
-                <th scope="col">Last</th>
-                <th scope="col">Handle</th>
+                <th scope="col">Movie Name</th>
+                <th scope="col">Like</th>
+                <th scope="col">Likes Counted</th>
+                <th scope="col">Your Review</th>
               </tr>
             </thead>
           <tbody>
